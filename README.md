@@ -1,5 +1,5 @@
 <h1>ReadableDateTime.js</h1>
-ReadableDateTime.js is a small Node.js module that converts a return value from default JavaScript Date() function into readable date and time and the module also have methods to converts them into SQL date and date time format.
+ReadableDateTime.js is a small Node.js module that converts a return value from the default JavaScript Date() function into a readable date and time. The module also has methods to convert them into SQL date and date time formats.
 <h1>Usage:</h1>
 <pre>
 new ReadableDate().toDateTime({Date Object}, {padding option true/false})
