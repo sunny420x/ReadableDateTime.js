@@ -25,8 +25,8 @@ class ReadableDate {
         var toDateTimeResult = this.toDateTime(str, pad);
         return toDateTimeResult.split(' ')[0]
     }
-    toTime(str, pad) {
-        var toDateTimeResult = this.toDateTime(str, pad);
+    toTime(str) {
+        var toDateTimeResult = this.toDateTime(str, false);
         return toDateTimeResult.split(' ')[1]
     }
     toSQLDateTime(str) {
