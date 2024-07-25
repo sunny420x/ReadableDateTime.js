@@ -19,6 +19,11 @@ new ReadableDate().toDateTime(new Date(), false)
 new ReadableDate().toDate(new Date(), true)
 </pre>
 
+<h2>toTime:</h2>
+<pre>
+new ReadableDate().toTime(new Date())
+</pre>
+
 <h2>toSQLDateTime:</h2>
 <pre>
 new ReadableDate().toSQLDateTime(new Date())
