@@ -46,6 +46,9 @@ console.log("toDateTime (without pad): "+new ReadableDate().toDateTime(new Date(
 console.log("toDate (with pad): "+new ReadableDate().toDate(new Date(), true))
 //Result: toDate (with pad): 25/07/2024
 
+console.log("toTime: "+new ReadableDate().toTime(new Date()))
+//Result: toDate (with pad): 14:44:13
+
 console.log("toSQLDateTime: "+new ReadableDate().toSQLDateTime(new Date()))
 //Result: toSQLDateTime: 2024-07-25 14:44:13
 
